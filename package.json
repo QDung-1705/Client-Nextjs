@@ -1,4 +1,8 @@
 {
+  "engines": {
+  "node": "20.x"
+   },
+   
   "name": "client",
   "private": true,
   "version": "0.0.0",
@@ -30,6 +34,7 @@
     "@types/react": "^19.1.0",
     "@types/react-dom": "^19.0.4",
     "@vitejs/plugin-react": "^4.3.4",
+    "rollup": "^3.29.4",
     "autoprefixer": "^10.4.21",
     "eslint": "^9.21.0",
     "eslint-plugin-react-hooks": "^5.1.0",
@@ -41,4 +46,5 @@
     "typescript-eslint": "^8.24.1",
     "vite": "^6.2.5"
   }
+  
 }
